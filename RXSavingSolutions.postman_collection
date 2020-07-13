@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "10cba391-cdc9-43fd-88a2-1189fc98d56c",
+		"name": "RX Saving Solutions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://i6eb3w423j.execute-api.us-east-2.amazonaws.com/live/pharmacylocation?latitude=asdfasdf&longitude=-94.6708",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://i6eb3w423j.execute-api.us-east-2.amazonaws.com/live/pharmacylocation?latitude=asdfasdf&longitude=-94.6708",
+					"protocol": "https",
+					"host": [
+						"i6eb3w423j",
+						"execute-api",
+						"us-east-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"live",
+						"pharmacylocation"
+					],
+					"query": [
+						{
+							"key": "latitude",
+							"value": "asdfasdf"
+						},
+						{
+							"key": "longitude",
+							"value": "-94.6708"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
